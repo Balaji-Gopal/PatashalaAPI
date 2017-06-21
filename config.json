@@ -1,0 +1,23 @@
+{
+    "port": 3000,
+    "security": {
+        "tokenLife": 3600
+    },
+    "mongoose": {
+        "uri": "mongodb://localhost/patashala"
+    },
+    "default": {
+        "api": {
+            "version": "v1"
+        },
+        "user": {
+            "username": "sachin",
+            "password": "password"
+        },
+        "client": {
+            "name": "Patashala API V1",
+            "clientId": "patashala",
+            "clientSecret": "PaTaShAlA"
+        }
+    }
+}
